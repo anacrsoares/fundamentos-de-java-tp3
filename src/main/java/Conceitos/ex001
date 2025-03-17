@@ -1,0 +1,63 @@
+Enunciado: Com base no conteúdo estudado sobre Programação Orientada a Objetos em Java,
+elabore uma explicação clara e objetiva dos conceitos de classe, objeto, campos (ou atributos) e métodos.
+Em seguida, crie um exemplo simples (em pseudocódigo ou em Java) que ilustre esses conceitos na prática.
+Seu exemplo deve conter:
+
+1. Classe
+Uma classe é uma estrutura que define um conjunto de atributos e métodos. É abstrato.
+É como um modelo, molde ou uma layout para criar objetos.
+
+Exemplo: A classe Biscoito define características (sabor, preço, quantidade comprada, data de validade)
+e comportamentos (cálculo de preços e tempo até a validade).
+
+2. Objeto
+Um objeto é uma instância de uma classe. Ele representa um elemento real com valores atribuídos aos seus atributos.
+Exemplo: Um biscoito específico com sabor de chocolate, preço de R$1,50 e validade em 26/10/2026.
+
+3. Atributos (ou campos)
+São as características da classe que armazenam informações sobre o objeto.
+Exemplo: sabor, preço, quantidadeComprada, dataValidade.
+
+4. Métodos
+São funções dentro da classe que executam ações relacionadas ao objeto.
+Exemplo: Métodos para calcular preços de atacado e varejo e verificar quanto tempo falta para a validade.
+
+CLASSE Biscoito
+    ATRIBUTOS:
+        sabor
+        preco
+        quantidadeComprada
+        dataValidade
+
+    MÉTODOS:
+        calcularPrecoAtacado()
+            SE quantidadeComprada > 5 ENTAO
+                RETORNE quantidadeComprada * 1.2
+            SENAO
+                RETORNE "Utilize o método de cálculo para compra no Varejo"
+            FIM SE
+        FIM MÉTODO
+
+        calcularPrecoVarejo()
+            SE quantidadeComprada <= 5 ENTAO
+            RETORNE quantidadeComprada * preco
+        FIM MÉTODO
+
+        calcularTempoParaVendaAteValidade(dataAtual)
+            // Supondo que dataValidade e dataAtual estejam no formato "DD/MM/AAAA"
+            diasRestantes ← calcularDiferençaEmDias(dataAtual, dataValidade)
+            RETORNE diasRestantes
+        FIM MÉTODO
+FIM CLASSE
+
+// Criando um objeto da classe Biscoito
+OBJETO biscoito1
+    sabor ← "Chocolate"
+    preco ← 1.5
+    quantidadeComprada ← 6
+    dataValidade ← "26/10/2026"
+
+// Chamando métodos
+ESCREVER "Preço no Atacado: ", biscoito1.calcularPrecoAtacado()
+ESCREVER "Preço no Varejo: ", biscoito1.calcularPrecoVarejo()
+ESCREVER "Dias até a validade: ", biscoito1.calcularTempoParaVendaAteValidade("16/03/2025")

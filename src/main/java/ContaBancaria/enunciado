@@ -1,0 +1,47 @@
+Exercício 7 Modelando uma Conta Bancária
+
+Enunciado: Imagine que você é responsável por criar um sistema simples de gerenciamento de contas bancárias.
+Esse sistema deverá cadastrar informações básicas sobre a conta, bem como realizar operações essenciais,
+como saque e depósito.
+
+Criar a Classe Conta
+Nome da classe: Conta (respeitando convenções Java).
+A classe deve conter no mínimo os seguintes atributos:
+titular (String) – representa o nome do dono da conta.
+numero (int) – identifica a conta.
+agencia (String) – identifica a agência bancária.
+saldo (double) – indica o valor atualmente disponível na conta.
+dataAbertura (String) – registra quando a conta foi aberta.
+
+Exercício 8 Criando Métodos
+Enunciado: Continuamos no cenário onde você é responsável por criar o sistema de gerenciamento de
+contas e agora você já definiu a Classe Conta. Vamos agora definir os métodos:
+
+saca(double valor): recebe um valor como parâmetro e o retira do saldo da conta.
+deposita(double valor): recebe um valor como parâmetro e o adiciona ao saldo da conta.
+calculaRendimento(): não recebe nenhum parâmetro e devolve (retorna) o valor do saldo multiplicado por
+0.1 (representando um rendimento mensal de 10%, por exemplo).
+
+
+Exercício 9 Vamos testar nossa classe
+Enunciado: Continuamos no cenário aonde você é responsável por criar o sistema de gerenciamento de contas
+e agora você já definiu a Classe Conta. Vamos agora criar a Classe de Teste!
+Crie uma classe (por exemplo, TestaConta) que contenha o método main. Dentro de main:
+
+Instancie um objeto da classe Conta.
+Atribua valores aos atributos da conta (titular, número, agência, saldo, data de abertura).
+Chame os métodos saca, deposita e calculaRendimento para testar o comportamento da conta.
+
+Exiba informações relevantes (por exemplo, saldo antes e depois de cada operação, valor do rendimento etc.)
+para verificar se tudo está funcionando corretamente.
+Observações:
+
+Utilize a convenção de nomes e padrões Java (por exemplo, nomes de métodos iniciando em minúsculo, nomes de classes iniciando em maiúsculo etc.).
+Você pode criar a classe Conta e a classe de teste (TestaConta) em arquivos separados ou no mesmo arquivo. Para organização, recomendamos separar.
+Caso opte por separar, lembre-se de compilar ambas as classes (por exemplo, javac Conta.java TestaConta.java). Em seguida, rode a classe com o método main (java TestaConta).
+Considerações:
+
+Presença e correta implementação de todos os atributos solicitados.
+Funcionamento adequado dos métodos saca, deposita e calculaRendimento.
+Clareza e objetividade no código, seguindo convenções Java.
+Execução correta do programa de teste (instanciação e uso dos métodos da classe Conta).

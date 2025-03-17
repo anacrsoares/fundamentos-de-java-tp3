@@ -1,0 +1,122 @@
+Exercício 2 Criando a Classe “Produto” (Com Contexto de Usuário)
+
+Enunciado: Com base nessa história de usuário, vamos criar uma classe que represente um produto de supermercado.
+Sua tarefa é declarar a classe e os atributos:
+
+Crie uma classe chamada Produto.
+
+Insira nela, pelo menos, os atributos: nome (String), preco (double) e quantidadeEmEstoque (int).
+Explique brevemente por que cada atributo é importante no contexto de gerenciamento de produtos.
+Considerações:
+
+Declaração correta dos atributos e criação da classe Produto.
+
+Exercício 3 Métodos Básicos da Classe “Produto”
+Enunciado: Dando continuidade ao contexto em que você é responsável pelo gerenciamento de produtos em um
+pequeno supermercado, agora vamos aprimorar a classe Produto adicionando métodos básicos de manipulação:
+
+1- Implementar Método de Atualização de Preço
+ --Crie um método chamado alterarPreco que receba um novo preço (do tipo double)
+e atualize o atributo preco do produto.
+3- Implementar Método de Atualização de Quantidade
+ --Crie um método chamado alterarQuantidade que receba um valor inteiro representando
+a nova quantidade e atualize o atributo quantidadeEmEstoque.
+5- Exibir Informações do Produto
+--Crie um método chamado exibirInformacoes, que mostre (no console ou como retorno)
+o nome, o preço e a quantidade em estoque do produto, refletindo o estado atual do objeto.
+
+Considerações:
+
+Correta implementação dos métodos solicitados.
+Clareza e objetividade no código, evidenciando como cada método cumpre sua função de atualizar ou exibir informações.
+Utilização adequada dos atributos já criados na classe Produto.
+
+
+Exercício 4 Testando a Classe “Produto”
+
+Enunciado: Dando sequência ao contexto de gerenciamento de produtos em um pequeno supermercado,
+agora é hora de testar a classe Produto que você desenvolveu. Para isso:
+
+Criar Classe de Teste ou Método main
+Crie uma nova classe (por exemplo, AppProduto ou Main) ou utilize um método principal (main)
+em alguma classe existente.
+
+1 - Instanciar um Produto
+-- Dentro do main, instancie (crie um objeto) da classe Produto.
+-- Atribua valores iniciais aos atributos nome, preco e quantidadeEmEstoque.
+3 - Chamar os Métodos de Atualização
+-- Chame os métodos alterarPreco e alterarQuantidade para modificar o preço e a quantidade em estoque
+do produto que você criou.
+4 - Exibir Informações
+-- Por fim, chame o método exibirInformacoes para confirmar se as alterações foram aplicadas corretamente,
+exibindo as informações atualizadas do produto no console (ou retornando-as de alguma forma).
+
+Considerações:
+
+Criação correta de uma classe ou método principal que possa executar o código.
+Instanciação da classe Produto e atribuição de valores iniciais.
+Uso correto dos métodos implementados para atualizar e exibir as informações do produto.
+Clareza na organização do código de teste (legibilidade e boa prática).
+
+
+Exercício 5 Criando Métodos de Propriedade (Getters e Setters)
+
+Enunciado: Continuando no contexto do pequeno supermercado que gerencia produtos, vamos criar métodos que permitam
+ler e alterar os valores dos atributos sem precisar acessá-los diretamente.
+Esses métodos são frequentemente chamados de “getters” e “setters” e ajudam a organizar o código,
+pois centralizam o modo como cada atributo pode ser modificado ou obtido.
+
+Métodos “Get” (Leitura):
+Crie um método que retorne o valor de cada atributo. Por exemplo:
+getNome() deve retornar o valor de nome.
+getPreco() deve retornar o valor de preco.
+getQuantidadeEmEstoque() deve retornar o valor de quantidadeEmEstoque.
+Métodos “Set” (Atualização):
+
+Crie um método que receba um novo valor para cada atributo. Por exemplo:
+setNome(String novoNome) deve atualizar o valor de nome.
+setPreco(double novoPreco) deve atualizar o valor de preco.
+setQuantidadeEmEstoque(int novaQuantidade) deve atualizar o valor de quantidadeEmEstoque.
+
+Exemplo de Uso:
+Mostre (no main ou em uma classe de teste) como invocar esses métodos de leitura e atualização.
+Por exemplo, chame setPreco(3.75) e depois getPreco() para confirmar que o valor foi atualizado.
+Observações:
+
+Você não precisa, neste momento, utilizar modificadores de visibilidade (public, private, protected).
+Basta criar métodos simples de “get” e “set” para cada atributo.
+
+Explique com suas próprias palavras por que esses métodos (getters e setters) podem ser úteis no código,
+mesmo que não esteja usando modificadores de acesso.
+Considerações:
+
+Criação de métodos de leitura (getters) e métodos de atualização (setters) para cada atributo.
+Demonstração de uso desses métodos (chamada em um main ou classe de teste).
+Clareza e objetividade na explicação sobre a função dos getters e setters no gerenciamento de produtos.
+
+
+Exercício 6 Adicionando Construtores à Classe “Produto”
+
+Enunciado: Você continua responsável pelo gerenciamento de produtos no pequeno supermercado.
+Agora, deseja facilitar a criação de novos produtos no sistema, definindo valores iniciais de maneira mais
+simples e organizada.
+
+Criar Construtor
+Na classe Produto, crie um construtor que receba parâmetros para inicializar obrigatoriamente os atributos nome,
+preco e quantidadeEmEstoque.
+
+Descreva rapidamente como o construtor se comporta ao receber os valores.
+
+Exemplificar o Uso
+
+No método main ou em outra classe de teste, crie um objeto do tipo Produto usando o construtor que recebe parâmetros.
+Atribua valores para nome, preco e quantidadeEmEstoque, e então exiba as informações do produto (usando o método exibirInformacoes ou métodos getters) para confirmar que os valores iniciais foram atribuídos corretamente.
+
+Justificativa
+Explique por que usar um construtor facilita a criação de objetos em relação a atribuir valores por vários métodos “set” ou chamadas separadas.
+Considerações:
+
+Declaração correta de um construtor que receba parâmetros na classe Produto.
+Atribuição adequada dos atributos nome, preco e quantidadeEmEstoque dentro do construtor.
+Demonstração clara do uso do construtor (instanciando um objeto, exibindo informações).
+Clareza na explicação sobre a utilidade do construtor no contexto de criação de produtos.

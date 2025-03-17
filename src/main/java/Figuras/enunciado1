@@ -1,0 +1,57 @@
+Exercício 10 Definindo Classes para Formas Geométricas
+
+Enunciado: Você está desenvolvendo um sistema simples para calcular áreas (para figuras 2D) e volumes (para figuras 3D). Ainda não foram apresentados conceitos avançados (como herança), então você criará classes independentes para cada forma.
+
+Classes Iniciais:
+Crie a classe Circulo com, no mínimo, o atributo raio (do tipo double).
+Crie a classe Esfera com, no mínimo, o atributo raio (do tipo double).
+Definição de Atributos:
+Explique por que o atributo raio é fundamental para cada uma dessas classes.
+Não é preciso criar métodos de cálculo ainda – apenas estruture as classes e seus atributos.
+Observações:
+
+As classes podem ficar em arquivos separados (Circulo.java e Esfera.java) ou no mesmo arquivo.
+Utilize convenções básicas de Java (nomes de classes iniciando em maiúscula, etc.).
+Considerações:
+
+Declaração correta das classes Circulo e Esfera.
+Presença e clareza na definição do(s) atributo(s) necessário(s).
+Código organizado e fácil de ler, sem uso de conceitos não ensinados (como herança ou polimorfismo).
+Exercício 11 Criando Métodos de Cálculo
+
+Enunciado: Agora, você adicionará métodos para calcular a área do círculo e o volume da esfera:
+
+Cálculo da Área do Círculo
+Na classe Circulo, crie um método (por exemplo, calcularArea()) que retorne a área, dada por π * (raio * raio).
+Cálculo do Volume da Esfera
+Na classe Esfera, crie um método (por exemplo, calcularVolume()) que retorne o volume, dado por (4.0 / 3.0) * π * (raio * raio * raio).
+Valor de π
+Você pode usar Math.PI (fornecido pelo Java) ou declarar uma constante (por exemplo, static final double PI = 3.14159;), conforme desejar.
+Observações:
+
+Lembre-se de retornar o resultado dos cálculos ao invés de apenas imprimir.
+Não utilize recursos avançados (como herança), apenas métodos simples dentro de cada classe.
+Considerações:
+
+Métodos de cálculo corretos e funcionais (calcularArea() no círculo, calcularVolume() na esfera).
+Retorno adequado dos valores (sem prints dentro dos métodos, a menos que queira exibir para conferência).
+
+Exercício 12 Testando as Classes de Figuras
+
+Enunciado: Finalmente, é hora de testar as classes que você criou. Crie uma classe de teste (por exemplo, TestaFiguras) com um método main para:
+
+Instanciar um objeto da classe Circulo e outro da classe Esfera.
+Atribuir valores de raio (ex.: 3.0 para o círculo, 5.0 para a esfera).
+Chamar os métodos de cálculo (calcularArea() e calcularVolume()).
+Exibir os resultados no console para verificar se os métodos estão funcionando corretamente.
+Observações:
+
+Caso opte por arquivos separados, lembre-se de compilar ambos (por exemplo, javac Circulo.java Esfera.java TestaFiguras.java) e depois rodar a classe que tem o main.
+Não use conceitos como herança; limite-se a instanciar e chamar os métodos.
+Considerações:
+
+Criação de uma classe de teste com método main.
+Instanciação correta das classes Circulo e Esfera, atribuindo valores ao atributo raio.
+Chamadas corretas aos métodos de cálculo, exibindo resultados plausíveis.
+Organização e legibilidade do código, seguindo convenções Java.
+Assim que terminar, salve seu trabalho em PDF nomeando o arquivo conforme a regra “nome_sobrenome_DR1_TP3.PDF” e poste como resposta a este TP.

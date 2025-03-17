@@ -1,0 +1,21 @@
+Exercício 1 Conceitos de Classe, Objeto, Campos e Métodos
+
+Enunciado: Com base no conteúdo estudado sobre Programação Orientada a Objetos em Java,
+elabore uma explicação clara e objetiva dos conceitos de classe, objeto, campos (ou atributos) e métodos.
+Em seguida, crie um exemplo simples (em pseudocódigo ou em Java) que ilustre esses conceitos na prática.
+Seu exemplo deve conter:
+
+Declaração de uma classe.
+Pelo menos dois campos (ou atributos) diferentes.
+Pelo menos um método que utilize ou manipule os campos da classe.
+Criação de um objeto a partir da classe declarada.
+Observações:
+
+Você pode usar exemplos do dia a dia (como “Carro”, “ContaBancaria”, etc.) para tornar a explicação mais clara.
+Procure relacionar cada conceito com o exemplo criado, explicando o que cada parte representa na prática.
+Seja sucinto, mas inclua detalhes suficientes para demonstrar compreensão do assunto.
+Considerações:
+
+Clareza e correção conceitual na explicação dos termos (classe, objeto, campos, métodos).
+Qualidade do exemplo prático e conexão com a teoria.
+Organização do texto e uso correto da linguagem de programação (caso opte por Java).
